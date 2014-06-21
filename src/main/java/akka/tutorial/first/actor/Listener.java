@@ -1,7 +1,7 @@
 package akka.tutorial.first.actor;
 
 import akka.actor.UntypedActor;
-import akka.turorial.first.message.PiApproximation;
+import akka.tutorial.first.message.PiApproximation;
 
 public class Listener extends UntypedActor {
 	public void onReceive(Object message) {

@@ -1,4 +1,4 @@
-package akka.turorial.first.message;
+package akka.tutorial.first.message;
 
 import akka.util.Duration;
 

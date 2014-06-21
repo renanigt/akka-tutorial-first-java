@@ -1,8 +1,8 @@
 package akka.tutorial.first.actor;
 
 import akka.actor.UntypedActor;
-import akka.turorial.first.message.Result;
-import akka.turorial.first.message.Work;
+import akka.tutorial.first.message.Result;
+import akka.tutorial.first.message.Work;
 
 public class Worker extends UntypedActor {
 

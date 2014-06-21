@@ -6,10 +6,10 @@ import akka.actor.ActorRef;
 import akka.actor.Props;
 import akka.actor.UntypedActor;
 import akka.routing.RoundRobinRouter;
-import akka.turorial.first.message.Calculate;
-import akka.turorial.first.message.PiApproximation;
-import akka.turorial.first.message.Result;
-import akka.turorial.first.message.Work;
+import akka.tutorial.first.message.Calculate;
+import akka.tutorial.first.message.PiApproximation;
+import akka.tutorial.first.message.Result;
+import akka.tutorial.first.message.Work;
 import akka.util.Duration;
 
 public class Master extends UntypedActor {
